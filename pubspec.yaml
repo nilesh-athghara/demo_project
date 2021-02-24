@@ -1,0 +1,29 @@
+name: demo_project
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  redux: ^4.0.0+3
+  flutter_redux: ^0.7.0
+  http: ^0.12.2
+  fluttertoast: ^7.1.6
+  cached_network_image: ^2.5.0
+  #be careful while using this library it has certain conflicts with firebase messaging and onesignal
+  flutter_local_notifications: ^4.0.1+1
+  workmanager: ^0.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
